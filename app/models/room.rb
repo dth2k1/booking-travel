@@ -4,5 +4,5 @@ class Room < ApplicationRecord
   has_many :calendars, dependent: :destroy
   has_many :photos, dependent: :destroy
   has_many :reservations, dependent: :destroy
-  has_mnay :reviews, dependent: :destroy
+  has_many :reviews, dependent: :destroy
 end

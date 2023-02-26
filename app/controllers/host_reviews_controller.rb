@@ -1,0 +1,3 @@
+class HostReviewsController < ApplicationController
+
+end
