@@ -8,7 +8,7 @@ development:
   <<: *default
   database: airbnb_development
   username: root
-  password: Password123#@!
+  password: password
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -18,7 +18,7 @@ test:
   <<: *default
   database: airbnb_test
   username: root
-  password: Password123#@!
+  password: password
   socket: /var/run/mysqld/mysqld.sock
 
 production:

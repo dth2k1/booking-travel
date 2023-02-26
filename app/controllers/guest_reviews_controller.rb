@@ -1,0 +1,3 @@
+class GuestReviewsController < ApplicationController
+
+end
